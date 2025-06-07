@@ -22,6 +22,17 @@ This program renders famous fractals such as the **Mandelbrot set** and **Julia 
 | `mandelbrot` | Classic Mandelbrot set |
 | `julia`      | Julia sets with user-defined parameters |
 
+## 🛠️ Build & Run Instructions (macOS)
+
+### ✅ Requirements
+
+- macOS system
+- [Homebrew](https://brew.sh/) installed
+- C compiler (e.g., `clang`)
+- [GLFW](https://www.glfw.org/) installed via Homebrew:
+  ```bash
+  brew install glfw
+
 Example:
 ```bash
 ./fractol mandelbrot
